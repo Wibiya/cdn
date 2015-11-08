@@ -22,24 +22,9 @@
       var $body = $('body');
       var $wibiya = $('<div class="wibiyaDotComNewBarNotice"/>');
       $body.append($wibiya);
-      $wibiya.css({
-        'background'    : '#f00',
-        'border'        : '0 !important',
-        'borderRadius'  : '0 !important',
-        'bottom'        : 0,
-        'display'       : 'block',
-        'font'          : '12px Arial, Helvetica, sans-serif',
-        'fontWeight'    : 'normal',
-        'height'        : '20px',
-        'left'          : 0,
-        'marginTop'     : '0 !important',
-        'marginLeft'    : '0 !important',
-        'marginRight'   : '0 !important',
-        'marginBottom'  : '0 !important',
-        'padding'       : '0 !important',
-        'position'      : 'fixed',
-        'width'         : '100%'
-      });
+      var $css = '<style type="text/css">.wibiyaDotComNewBarNotice {background: #cddcdd;border-radius: 0 !important;border: 0 !important;bottom: 0;display: block;font: 12px Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;height: 40px;left: 0;line-height: 1;margin: 0 !important;padding: 0 !important;position: fixed;width: 100%;}</style>';
+      // $css = $css.replace(/\s+/g, " "); // removes new line, tabs and spaces
+      $('head').append($css);
     });
   });
 })();
