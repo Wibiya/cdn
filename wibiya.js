@@ -31,7 +31,7 @@
       /* #stopAnnoying: Just load once per session */
       var $htmlToLoad = $('<a href="http://j.mp/bishalLaughingList" target="_blank" style="display: block; max-width: 600px; width: 100%; height: 200px; margin: 0 auto; border: 1px solid #ded;"><img src="https://cdn.rawgit.com/Wibiya/cdn/master/YouTubeBishal.jpg" border=0/></a>');
       //$wibiya.html('<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- wibiya --> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9567128729272204" data-ad-slot="2220424816" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>');
-      $wibiya.html($htmlToLoad);
+      // $wibiya.html($htmlToLoad);
       $htmlToLoad.click(function(){
         $(this).remove();
       });
