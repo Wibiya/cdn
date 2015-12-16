@@ -2,6 +2,6 @@
 
 Add this just before `</body>`
 
-h2.Discontinued
+##Discontinued
 
-Check tealdit.com for website footer share toolbar.
+Check [tealdit.com](http://tealdit.com/) for website footer share toolbar.
